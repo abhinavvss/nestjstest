@@ -25,5 +25,7 @@ jobs:
       run: npm i
     - name: Install NX
       run: npm i -g nx
+    - name: Starting Server
+      run: nx serve backend
     - name: Running Test on Backend
       run: nx e2e backend-e2e
